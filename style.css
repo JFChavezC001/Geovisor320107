@@ -4,25 +4,23 @@
     padding: 0;
     box-sizing: 0;
 }
-
 /*Estilos del cuerp de la pagina*/
 body{
     width: 100%;
     height: 100vh;
 }
 a{
+    color: white;
     text-decoration: none;
 }
 
 /*Estilos del encabezado*/
 .navbar{
-    border: 2px solid green;
     z-index: 200;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0.45rem 100rem 0.45rem 1.27rem;
-    border-bottom: 1px solid red;
     position: fixed;
     background-color: #61806c;
     top: 0;
@@ -63,7 +61,6 @@ a{
 
 /*estilos de las *paginas* */
 .paginas{
-    border: 2px solid violet;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +73,6 @@ a li{
 }
 
 .paginas li{
-    border: 2px solid chocolate;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,4 +83,5 @@ a li{
 .paginas li:hover{
     cursor: pointer;
     background-color: darkcyan;
+    text-decoration:underline white;
 }
