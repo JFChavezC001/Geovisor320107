@@ -1,6 +1,88 @@
-.navbar-inicio{
-    background-color: aqua;
+/*Formateo de los estilos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
-.contenido{
-    background-color: bisque;
+
+/*Estilos del cuerp de la pagina*/
+body{
+    width: 100%;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+
+/*Estilos del encabezado*/
+.navbar{
+    border: 2px solid green;
+    z-index: 200;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.45rem 100rem 0.45rem 1.27rem;
+    border-bottom: 1px solid red;
+    position: fixed;
+    background-color: green;
+    top: 0;
+    left: 0;
+}
+/*-------------------------------------------------Lado izquierdo del navbar-----------------------------------------------------*/
+.icono{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.brand{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.brand .logo-page{
+    width: 3.5rem;
+}
+.brand .name-cime{
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+/*------------------------------------------Lado derecho del navbar--------------------------------------------*/
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 2rem 0 0;
+}
+
+/*estilos de las *paginas* */
+.paginas{
+    border: 2px solid violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+a li{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.paginas li{
+    border: 2px solid chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    transition: background-color 0.5rem ease;
+}
+
+.paginas li:hover{
+    cursor: pointer;
+    background-color: darkcyan;
 }
