@@ -24,7 +24,7 @@ a{
     padding: 0.45rem 100rem 0.45rem 1.27rem;
     border-bottom: 1px solid red;
     position: fixed;
-    background-color: green;
+    background-color: #61806c;
     top: 0;
     left: 0;
 }
@@ -48,6 +48,8 @@ a{
     font-size: 1.3rem;
     font-weight: 200;
     color: aliceblue;
+    margin-bottom: 123px;
+    
 }
 
 /*------------------------------------------Lado derecho del navbar--------------------------------------------*/
