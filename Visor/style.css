@@ -16,13 +16,11 @@ a{
 
 /*Estilos del encabezado*/
 .navbar{
-    border: 2px solid green;
     z-index: 200;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0.45rem 100rem 0.45rem 1.27rem;
-    border-bottom: 1px solid red;
     position: fixed;
     background-color: #61806c;
     top: 0;
